@@ -1,0 +1,160 @@
+*{
+    background-color: #211A1D;
+    color: #F8F0FB;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    word-spacing: 3px;
+    letter-spacing: 0.97;
+}
+header div{
+    display: flex;
+    gap: 57px;
+    justify-content: center;
+    justify-items: center;
+    font-size: 23px;
+    h1{
+        color: #CAD5CA;
+    }
+}
+header  div img{
+    width: 63px;
+    height: auto;
+}
+header hr{
+ border-top:4px  double whitesmoke;   
+ overflow: visible;
+ text-align: center;
+ height: 5px;
+}
+header hr::after{
+    content: "🪨--📃--✂️";
+    background:#211A1D;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    border-radius: 50%;
+}
+main{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.game{
+    margin-top: 17px;
+    span{
+        font-size: xx-large;
+    }
+    h2{
+        .bungee-spice-regular {
+            font-family: "Bungee Spice", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+        text-decoration: underline #1E3E62;
+        color: #FF6500;
+          
+    }
+}
+.moves,bot{
+    width: 263px;
+ }
+ .game .result{
+    display: flex;
+    gap: 97px;
+    flex-direction: column;
+    width: 400px;
+}
+
+
+.moves h2{
+    margin-left: 17px;
+}
+.moves{
+    /* margin-left: 400px; */
+    
+    /* width: 154px; */
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column ;
+    figure{
+        text-align: center;
+    }
+    img{
+        width: 117px;
+        height: auto;
+        transition: transform 0.5s ease;
+        border:7px double #fff;
+        padding: 9px;
+        /* box-shadow: 2.5px 3px 32px 15.5px #ffffff; */
+        box-shadow: 2.5px 3px 32px 0px purple;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+.choices{
+    border: 3PX groove #fff;
+    padding:76px 19px 76px 37px;
+    line-height: 30px;
+    text-align: center;
+    img{
+        width: 37px;
+        height: auto;
+        border:1px double #fff;
+        align-self: center;
+    }
+    h3{
+        display: flex;
+        align-items: center;
+        line-height: 57px;
+    }box-shadow: 2.5px 3px 32px 2.5px white;
+    span{
+        font-size: x-large;
+    }
+}
+.game h2::first-letter{
+    font-size: xx-large;
+}
+.bot{
+    .slot-column {
+        margin: 20px auto;
+        width: 150px;
+        height: 150px;
+        border: 3px solid #444;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        padding: auto;
+        box-shadow: 2.5px 3px 32px 0px purple;
+      }
+
+      .slot {
+        font-size: 75px;
+        line-height: 100px;
+        text-align: center;
+      }
+}
+.rules{
+    
+    margin-top: 250px;
+    padding-left:7px ;
+    padding-right: 7px;
+    /* border: 1px ridge #CAD5CA; */
+    line-height: 25px;
+    h2{
+        /* color: #6320EE; */
+        text-decoration: underline red;
+    }
+    p{
+        text-wrap: balance;
+        color: #a484e3;
+        font-weight: 700;
+    }
+}
